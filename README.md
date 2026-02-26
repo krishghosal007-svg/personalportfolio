@@ -1,3 +1,11 @@
+
+
+
+Preview
+
+https://github.com/user-attachments/assets/d8701832-8b14-458c-a989-4aa8aab05a0e
+
+
 📖 About Me
 
 I am currently pursuing B.Voc in Software Development from MCKV Institute of Engineering and passionate about building:
