@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Ghosal | Creative Developer</title>
+    <meta name="description"
+        content="Professional portfolio of Krish Ghosal, a creative developer specializing in dynamic web experiences.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="scroll-progress"></div>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <header class="header">
+        <div class="logo">KRISH GHOSAL.</div>
+        <nav class="nav">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero section">
+            <div class="hero-content animate-on-scroll">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="title">Krish <span class="highlight">Ghosal</span></h1>
+                <p class="subtitle">I am a <span class="typing-text"></span><span class="cursor">|</span></p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-secondary"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+                
+                </div>
+                <section id="about" class="about section">
+                    <div class="container animate-on-scroll">
+                        <h2 class="section-title">About Me</h2>
+                        <div class="about-grid">
+                            <div class="about-video-container">
+                                <video class="profile-video" autoplay loop muted playsinline>
+                                    <source src="C:\Users\User\Desktop\anti\video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="video-glow-effect"></div>
+                            </div>
+                            <div class="about-text">
+                                <p>I am a passionate Software Developer and Data Analyst pursuing a Bachelor of
+                                    M.Voc(Software
+                                    Development) at MCKV Institute of Engineering. I specialize in building dynamic web
+                                    applications with React.js, Laravel, PHP, and MySQL. With a strong foundation in
+                                    data
+                                    processing using Power BI and Advanced Excel, I am dedicated to crafting intuitive
+                                    digital
+                                    solutions.</p>
+                                <ul class="skills-list">
+                                    <li>React.js & JavaScript</li>
+                                    <li>PHP & Laravel Framework</li>
+                                    <li>MySQL & Oracle</li>
+                                    <li>HTML/CSS</li>
+                                    <li>Power BI & Advanced Excel</li>
+                                    <li>Generative AI Integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" class="projects section">
+                    <div class="container">
+                        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+                        <div class="projects-grid">
+                            <article class="project-card animate-on-scroll">
+                                <div class="project-img-placeholder">Generative AI</div>
+                                <div class="project-info">
+                                    <h3>Generative AI Chatbot (Antaryami)</h3>
+                                    <p>An AI Chatbot featuring specialized tools like a blog generator, recipe writer,
+                                        and
+                                        horoscope teller.</p>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                            Demo</a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="project-card animate-on-scroll" style="transition-delay: 0.1s;">
+                                <div class="project-img-placeholder">Sketch2AI</div>
+                                <div class="project-info">
+                                    <h3>Sketch2AI Platform</h3>
+                                    <p>Draw and let AI analyze your drawing to provide refined, high-quality images
+                                        based on
+                                        user requirements.</p>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                            Demo</a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="project-card animate-on-scroll" style="transition-delay: 0.2s;">
+                                <div class="project-img-placeholder">Data Analytics</div>
+                                <div class="project-info">
+                                    <h3>Blinkit Sales Analysis</h3>
+                                    <p>A comprehensive Power BI dashboard built to analyze Blinkit sales metrics and
+                                        data
+                                        processing.</p>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-chart-bar"></i> View
+                                            Report</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact" class="contact section">
+                    <div class="container animate-on-scroll">
+                        <h2 class="section-title">Let's Connect</h2>
+                        <p class="contact-desc">Currently open for new opportunities. Whether you have a question or
+                            just want
+                            to say hi, feel free to reach out to me directly at
+                            <strong>krishghosal007@gmail.com</strong> or
+                            call <strong>+91-8777030667</strong>.</p>
+                        <form class="contact-form" onsubmit="event.preventDefault();">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2026 Krish Ghosal. Built with precision and passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
